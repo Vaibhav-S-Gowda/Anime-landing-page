@@ -1,21 +1,46 @@
 # Security Policy
 
-## Supported Versions
+## 🔐 Security
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+This project follows frontend security best practices:
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+- No sensitive data or credentials are stored in this repository
+- Dependencies are monitored using GitHub security alerts and updates
+- Repository is protected using branch protection rules
+- HTTPS is recommended for all deployments
 
-## Reporting a Vulnerability
+---
 
-Use this section to tell people how to report a vulnerability.
+## 📢 Reporting a Vulnerability
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+If you discover a security vulnerability, please:
+
+- Open a security issue (if safe to disclose), OR
+- Contact the maintainer directly
+
+Please include:
+- Description of the issue
+- Steps to reproduce
+- Possible impact
+
+---
+
+## ⏱ Response Commitment
+
+The maintainer will attempt to respond to valid security reports within **3–7 days**.
+
+---
+
+## 📦 Scope
+
+This repository is a frontend static project.  
+Backend infrastructure, hosting providers, or third-party services are out of scope.
+
+---
+
+## 🛡 Security Practices
+
+- No hardcoded secrets
+- Minimal dependency usage
+- Regular dependency review
+- Secure deployment recommended (HTTPS + trusted hosting)
